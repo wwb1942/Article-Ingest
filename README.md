@@ -8,12 +8,37 @@ An OpenClaw skill for extracting, cleaning, and summarizing long-form articles f
 
 It is designed for the common workflow of **“send me an article, give me the useful bits, and optionally turn it into a reusable knowledge note.”**
 
+> 中文一句话：把公众号文章、网页、Feishu 文档、本地文本等输入，整理成可读摘要和可复用知识卡片。
+
 ## Quick links
 
 - [Latest release](https://github.com/wwb1942/Article-Ingest/releases/latest)
 - [Download packaged skill](https://github.com/wwb1942/Article-Ingest/releases/latest/download/article-ingest.skill)
 - [Skill contract](./SKILL.md)
 - [Output templates](./references/output-templates.md)
+- [Changelog](./CHANGELOG.md)
+- [Contributing guide](./CONTRIBUTING.md)
+
+## When to use
+
+Use `Article-Ingest` when you want to:
+
+- summarize a WeChat article quickly
+- turn a long webpage into a structured digest
+- normalize text from local markdown / txt / html files
+- extract article content first, then hand it to another summarization or archival workflow
+- turn reading into reusable notes instead of one-off chat answers
+
+## When not to use
+
+This repository is **not** the best fit when you need:
+
+- dedicated PDF parsing / OCR as the main workflow
+- fully general document conversion across many office formats
+- heavy browser automation for login-gated sites
+- a full publishing pipeline by itself
+
+In those cases, extract the text first or combine this skill with other tools.
 
 ## What it supports
 
@@ -67,6 +92,35 @@ The extraction script supports:
 - `markdown`
 - `text`
 
+## Example JSON shape
+
+```json
+{
+  "title": "Example article title",
+  "author": "Example author",
+  "description": "Short extracted description",
+  "text": "Cleaned article body text..."
+}
+```
+
+## Example digest shape
+
+```markdown
+**3-line summary**
+- Line 1
+- Line 2
+- Line 3
+
+**Core points**
+1. Point one
+2. Point two
+3. Point three
+
+**My judgment**
+- Worth attention: yes / no / partial
+- Why: short explanation
+```
+
 ## Repository layout
 
 - `SKILL.md` — skill contract, workflow guidance, and guardrails
@@ -76,9 +130,15 @@ The extraction script supports:
 - `CHANGELOG.md` — release notes and notable changes
 - `CONTRIBUTING.md` — contribution guide
 
-## Release artifact
+## Installation notes
 
-If you just want the packaged skill file, download it from the latest GitHub release.
+If you just want the packaged artifact, download `article-ingest.skill` from the latest GitHub release.
+
+If you want to inspect or adapt behavior, start from:
+
+- `SKILL.md`
+- `scripts/article_ingest.py`
+- `references/output-templates.md`
 
 ## Notes
 

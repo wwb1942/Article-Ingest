@@ -6,7 +6,15 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 ## [Unreleased]
 
-- Documentation and repository polish will continue here.
+- Ongoing documentation and packaging polish.
+
+## [v0.1.1] - 2026-03-13
+
+### Added
+
+- Refined README with use-cases, non-goals, quick links, and example output shapes
+- Added clearer installation notes and repository navigation
+
 
 ## [v0.1.0] - 2026-03-13
 
