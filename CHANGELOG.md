@@ -8,6 +8,15 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 - Ongoing documentation and packaging polish.
 
+## [v0.1.2] - 2026-03-13
+
+### Added
+
+- SECURITY.md with a private reporting preference
+- SUPPORT.md with support and issue guidance
+- GitHub issue templates for bugs and feature requests
+- Pull request template for cleaner contributions
+
 ## [v0.1.1] - 2026-03-13
 
 ### Added
