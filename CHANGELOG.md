@@ -8,6 +8,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 - Ongoing documentation and packaging polish.
 
+## [v0.1.9] - 2026-03-13
+
+### Fixed
+
+- removed the small CTA pill labels from the README banner to avoid unreadable micro-text on the GitHub repo page
+- kept the pills as purely visual accents under the main title block
+
 ## [v0.1.8] - 2026-03-13
 
 ### Fixed
