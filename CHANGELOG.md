@@ -8,6 +8,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 - Ongoing documentation and packaging polish.
 
+## [v0.1.5] - 2026-03-13
+
+### Fixed
+
+- adjusted README banner typography and spacing for more stable GitHub rendering
+- widened and centered CTA pills to avoid text crowding
+
 ## [v0.1.4] - 2026-03-13
 
 ### Added
