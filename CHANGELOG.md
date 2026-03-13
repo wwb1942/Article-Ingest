@@ -8,6 +8,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 - Ongoing documentation and packaging polish.
 
+## [v0.1.8] - 2026-03-13
+
+### Fixed
+
+- increased CTA pill text contrast so the button labels remain readable on the GitHub repo page
+- switched pill text from pale-on-pale to dark-on-light with a subtle shadow
+
 ## [v0.1.7] - 2026-03-13
 
 ### Fixed
