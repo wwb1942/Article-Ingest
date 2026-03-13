@@ -8,6 +8,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 - Ongoing documentation and packaging polish.
 
+## [v0.1.7] - 2026-03-13
+
+### Fixed
+
+- tightened the README banner layout to keep all text inside a strict right-side safe area
+- shortened the banner copy to avoid clipping on the GitHub repository page
+
 ## [v0.1.6] - 2026-03-13
 
 ### Fixed
