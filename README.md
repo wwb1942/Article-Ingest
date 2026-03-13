@@ -1,8 +1,19 @@
 # Article-Ingest
 
+![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
+![GitHub Release](https://img.shields.io/github/v/release/wwb1942/Article-Ingest)
+![Repo Visibility](https://img.shields.io/badge/visibility-public-blue.svg)
+
 An OpenClaw skill for extracting, cleaning, and summarizing long-form articles from multiple input sources.
 
-It is designed for the common workflow of “send me an article, give me the useful bits, and optionally turn it into a reusable knowledge note.”
+It is designed for the common workflow of **“send me an article, give me the useful bits, and optionally turn it into a reusable knowledge note.”**
+
+## Quick links
+
+- [Latest release](https://github.com/wwb1942/Article-Ingest/releases/latest)
+- [Download packaged skill](https://github.com/wwb1942/Article-Ingest/releases/latest/download/article-ingest.skill)
+- [Skill contract](./SKILL.md)
+- [Output templates](./references/output-templates.md)
 
 ## What it supports
 
@@ -62,10 +73,12 @@ The extraction script supports:
 - `scripts/article_ingest.py` — extraction entrypoint
 - `references/output-templates.md` — digest and knowledge-card templates
 - `dist/article-ingest.skill` — packaged skill artifact
+- `CHANGELOG.md` — release notes and notable changes
+- `CONTRIBUTING.md` — contribution guide
 
 ## Release artifact
 
-If you just want the packaged skill file, download it from the GitHub Releases page.
+If you just want the packaged skill file, download it from the latest GitHub release.
 
 ## Notes
 
