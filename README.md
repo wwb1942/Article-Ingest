@@ -1,7 +1,7 @@
 # Article-Ingest
 
 <p align="center">
-  <img src="./assets/article-ingest-banner.svg" alt="Article-Ingest banner" width="100%" />
+  <img src="./assets/article-ingest-banner.png" alt="Article-Ingest banner" width="100%" />
 </p>
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)

@@ -8,6 +8,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 - Ongoing documentation and packaging polish.
 
+## [v0.1.6] - 2026-03-13
+
+### Fixed
+
+- replaced the README SVG banner with a rasterized PNG banner for stable GitHub rendering
+- removed cross-renderer font metric drift from the repo landing image
+
 ## [v0.1.5] - 2026-03-13
 
 ### Fixed
