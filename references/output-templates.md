@@ -1,4 +1,4 @@
-# Output templates for article-ingest
+# Output templates for Article-Ingest
 
 Use these templates when the user does not specify a custom format.
 

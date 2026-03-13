@@ -1,4 +1,4 @@
-# article-ingest
+# Article-Ingest
 
 OpenClaw skill for ingesting and summarizing long-form articles from multiple sources.
 

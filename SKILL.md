@@ -3,7 +3,7 @@ name: article-ingest
 description: Ingest and summarize long-form articles from WeChat mp.weixin links, generic web URLs, Feishu docs, pasted text, and local markdown/txt/html files. Use when the user sends an article and wants automatic extraction, cleaning, a 3-line summary, core观点, judgment, topic classification, or archival into a reusable knowledge card.
 ---
 
-# article-ingest
+# Article-Ingest
 
 Turn messy article inputs into structured notes with minimal user effort.
 
