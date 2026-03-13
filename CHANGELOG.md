@@ -15,6 +15,10 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 - GitHub Actions CI workflow for syntax and CLI help validation
 - CI badge in README
 
+### Fixed
+
+- CI runtime now installs the required `requests` dependency before running the CLI help check
+
 ## [v0.1.2] - 2026-03-13
 
 ### Added

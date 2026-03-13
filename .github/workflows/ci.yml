@@ -18,6 +18,9 @@ jobs:
         with:
           python-version: '3.11'
 
+      - name: Install runtime dependency
+        run: python -m pip install requests
+
       - name: Syntax check
         run: python -m py_compile scripts/article_ingest.py
 
