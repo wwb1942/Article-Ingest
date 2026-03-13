@@ -1,5 +1,9 @@
 # Article-Ingest
 
+<p align="center">
+  <img src="./assets/article-ingest-banner.svg" alt="Article-Ingest banner" width="100%" />
+</p>
+
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![GitHub Release](https://img.shields.io/github/v/release/wwb1942/Article-Ingest)
 ![CI](https://github.com/wwb1942/Article-Ingest/actions/workflows/ci.yml/badge.svg)

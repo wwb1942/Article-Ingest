@@ -1,0 +1,47 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="640" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0F172A"/>
+      <stop offset="1" stop-color="#1E293B"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#06B6D4"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1280" height="640" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="30" flood-opacity="0.2"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" rx="32" fill="url(#bg)"/>
+  <circle cx="1060" cy="120" r="170" fill="#22C55E" fill-opacity="0.08"/>
+  <circle cx="1180" cy="520" r="220" fill="#06B6D4" fill-opacity="0.08"/>
+
+  <g filter="url(#shadow)">
+    <rect x="92" y="116" width="360" height="408" rx="28" fill="#0B1220" stroke="#334155"/>
+    <rect x="128" y="162" width="288" height="56" rx="16" fill="url(#card)" fill-opacity="0.14"/>
+    <rect x="128" y="252" width="248" height="18" rx="9" fill="#475569"/>
+    <rect x="128" y="286" width="266" height="18" rx="9" fill="#475569"/>
+    <rect x="128" y="320" width="228" height="18" rx="9" fill="#475569"/>
+    <rect x="128" y="380" width="120" height="32" rx="16" fill="#22C55E" fill-opacity="0.22"/>
+    <rect x="262" y="380" width="120" height="32" rx="16" fill="#06B6D4" fill-opacity="0.22"/>
+    <rect x="128" y="438" width="208" height="18" rx="9" fill="#334155"/>
+  </g>
+
+  <g>
+    <rect x="610" y="164" width="112" height="112" rx="28" fill="url(#card)"/>
+    <path d="M647 218H685" stroke="white" stroke-width="16" stroke-linecap="round"/>
+    <path d="M666 199V237" stroke="white" stroke-width="16" stroke-linecap="round"/>
+  </g>
+
+  <text x="770" y="216" fill="white" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700">Article-Ingest</text>
+  <text x="610" y="292" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="28">Extract, clean, and summarize long-form articles</text>
+  <text x="610" y="334" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="24">OpenClaw skill · WeChat · Web · Feishu · Local files</text>
+
+  <g>
+    <rect x="610" y="406" width="176" height="54" rx="27" fill="#22C55E" fill-opacity="0.18" stroke="#22C55E"/>
+    <text x="646" y="441" fill="#DCFCE7" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">JSON / Markdown</text>
+    <rect x="808" y="406" width="152" height="54" rx="27" fill="#06B6D4" fill-opacity="0.18" stroke="#06B6D4"/>
+    <text x="848" y="441" fill="#CFFAFE" font-family="Arial, Helvetica, sans-serif" font-size="22" font-weight="700">Knowledge Card</text>
+  </g>
+</svg>

@@ -8,6 +8,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 - Ongoing documentation and packaging polish.
 
+## [v0.1.4] - 2026-03-13
+
+### Added
+
+- README banner artwork for a stronger public landing page
+- repository-facing visual polish for the public GitHub page
+
 ## [v0.1.3] - 2026-03-13
 
 ### Added
