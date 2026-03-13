@@ -8,6 +8,13 @@ The format is loosely based on [Keep a Changelog](https://keepachangelog.com/en/
 
 - Ongoing documentation and packaging polish.
 
+## [v0.1.3] - 2026-03-13
+
+### Added
+
+- GitHub Actions CI workflow for syntax and CLI help validation
+- CI badge in README
+
 ## [v0.1.2] - 2026-03-13
 
 ### Added

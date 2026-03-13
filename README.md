@@ -2,6 +2,7 @@
 
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![GitHub Release](https://img.shields.io/github/v/release/wwb1942/Article-Ingest)
+![CI](https://github.com/wwb1942/Article-Ingest/actions/workflows/ci.yml/badge.svg)
 ![Repo Visibility](https://img.shields.io/badge/visibility-public-blue.svg)
 
 An OpenClaw skill for extracting, cleaning, and summarizing long-form articles from multiple input sources.
