@@ -4,7 +4,7 @@
   <img src="./assets/article-ingest-banner.png" alt="Article-Ingest banner" width="100%" />
 </p>
 
-![Maintained with Codex](https://img.shields.io/badge/Maintained%20with-Codex-1f6feb)
+![Built with Codex](https://img.shields.io/badge/Built%20with-Codex-1f6feb)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)
 ![GitHub Release](https://img.shields.io/github/v/release/wwb1942/Article-Ingest)
 ![CI](https://github.com/wwb1942/Article-Ingest/actions/workflows/ci.yml/badge.svg)
